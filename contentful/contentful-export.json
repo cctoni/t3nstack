@@ -468,8 +468,8 @@
   ],
   "locales": [
     {
-      "name": "German (Germany)",
-      "code": "de-DE",
+      "name": "English (United States)",
+      "code": "en-US",
       "fallbackCode": null,
       "default": true,
       "contentManagementApi": true,
