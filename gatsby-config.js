@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 module.exports = {
   siteMetadata: {
     title: `Novela by Narative`,
@@ -43,7 +41,7 @@ module.exports = {
         authorsPage: true,
         sources: {
           local: true,
-          contentful: true,
+          // contentful: true,
         },
       },
     },
@@ -57,13 +55,6 @@ module.exports = {
         theme_color: `#fff`,
         display: `standalone`,
         icon: `src/assets/favicon.png`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-contentful',
-      options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
   ],
